@@ -1,0 +1,25 @@
+{
+  "user": [
+    {
+      "id": "3",
+      "name": "elson",
+      "email": "elson@gmail.com",
+      "password": "elson1234",
+      "phone": "98786286987"
+    },
+    {
+      "id": "3",
+      "name": "jason",
+      "email": "jason2003@gmail.com",
+      "phone": "+91316985116",
+      "password": "jason2003"
+    },
+    {
+      "id": 3,
+      "name": "ram",
+      "email": "ram@gmail.com",
+      "phone": "+913524845848",
+      "password": "awxdaiwjxdia"
+    }
+  ]
+}
