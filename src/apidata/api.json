@@ -15,11 +15,18 @@
       "password": "jason2003"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "ram",
       "email": "ram@gmail.com",
       "phone": "+913524845848",
       "password": "awxdaiwjxdia"
+    },
+    {
+      "id": 3,
+      "name": "abi",
+      "email": "abi2003@gmail.com",
+      "phone": "+917678687687",
+      "password": "sdclsdkcsdcs"
     }
   ]
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios'
 import { Link ,useNavigate} from 'react-router-dom'
 
@@ -38,6 +38,7 @@ setTimeout(()=>{
     axios.post("http://localhost:9000/user",data)
     .then(res=>console.log(res.data))
     .catch(e=>console.log(e))
+    
     setEmail('')
     setName('')
     setPass('')
@@ -54,7 +55,7 @@ setTimeout(()=>{
        <div style={{backgroundImage:'url(https://t3.ftcdn.net/jpg/05/24/14/44/360_F_524144420_kAYcOWuld4q0ggrzc4ObD1CFMtr8ELk5.jpg)',backgroundRepeat:'no-repeat',backgroundSize:'cover'}} className='flex justify-center h-screen w-[min(80vh,)]'>
         <div className='flex flex-col items-center'>
            <div className={`bg-red-500 ${popup?'duration-500':'h-0 duration-500'} w-full  flex justify-center rounded-b-2xl items-center overflow-hidden`}>
-                <h1 className='text-[min(12px,20px)] text-white font-bold'>&#128517;user already exists</h1>
+                <h1 className='text-[min(2vh,15vh)] text-white font-bold'>&#128517;user already exists</h1>
            </div>
            <div className={`bg-blue-500 ${sucessfully?'duration-500':'h-0 duration-500'} w-full  flex justify-center rounded-b-2xl items-center overflow-hidden`}>
                 <h1 className='text-[min(12px,20px)] text-white font-bold'>&#128522; accout sucessfully created</h1>
